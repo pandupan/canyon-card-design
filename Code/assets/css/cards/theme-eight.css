@@ -1,0 +1,46 @@
+
+  .card{
+    border-radius: 22px;;
+    text-align: center;
+    box-shadow: 0 10px 20px -10px rgba(0,0,0,.75);
+  }
+  .cover-photo{
+    height: 160px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+  .profile{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 93px 0 0 -175px;
+    padding: 7px;
+  }
+  .profile-name{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0 0 194px;
+  }
+  .profile-subtile{
+    font-size: 15px;
+    margin: 0 0 0 194px;
+  }
+  .about{
+    font-size: 19px;
+    margin-top: 35px;
+    line-height: 21px;
+  }
+  
+  .contact-details .icon-circle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--card-font-color);
+    font-size: 21px;
+    height: 42px;
+    width: 42px;
+    border-radius: 20% 40%;
+    padding: 0 10px;
+    }
+    

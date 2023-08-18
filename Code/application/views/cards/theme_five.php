@@ -1,5 +1,6 @@
 <?php $this->load->view('cards/style'); ?>
 <link rel="stylesheet" href="<?=base_url('assets/css/cards/theme-five.css')?>">
+<link rel="stylesheet" href="<?=base_url('assets/css/cards/card-article.css')?>">
 </head>
 <body>
 	<div class="container">
@@ -109,7 +110,68 @@
                         <div class="col-md-12">
                             <article class="article article-style-b border rounded mb-3">
                                 <div class="article-header">
-                                    <div class="article-image" style="background-image: url('<?=$product['image']!=""?base_url("assets/uploads/product-image/".$product['image']):''?>');">
+                                    <div class="card-container">
+                                        <div class="card-left">
+                                            <div class="polygon-clipper">
+                                            <div class="hexagon-cilpper">
+                                                <img 
+                                                src="https://i.ibb.co/fthT2FN/Screenshot-2023-08-14-133615-removebg-preview.png" 
+                                                alt="Medal Logo"
+                                                class="medal-logo"
+                                                />
+                                            </div>
+                                            <div class="headline-text">
+                                                <h3 class="over-text">ONE GOD, ONE WORLD, ONE PEOPLE </h3>
+                                                <h1 class="middle-text">ONE WORLD PEACE MAKER FOUNDATION</h1>
+                                                <h3 class="bottom-text">FUTURE IS TODAY, RESOLVING TODAYS NEED IS, TOMORROWS FUTURE</h3>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-right">
+                                            <div class="adress-text">
+                                            <p class="text-desc">
+                                                243/36/11, Ma Lo Street, Quater 10, Binh Tri Dong A Ward, Binh Tan District.
+                                            </p>
+                                            <p class="text-desc-web">
+                                            mariena@oneworldpeacemaker.foundation
+                                            </p>
+                                            </div>
+                                                <div class="overlay">
+                                            <div class="mid-grid">
+                                                <div id="item-0">&nbsp;</div>
+                                                <div id="item-1">&nbsp;</div>
+                                                <div id="item-2">
+                                                <div class='image-container'>
+                                                    <div><img src="https://i.ibb.co/S5fjFP0/Screenshot-2023-08-14-140341-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/zSx7CXT/Screenshot-2023-08-14-140353-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/vDYSxZp/Screenshot-2023-08-14-140410-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/CpLMhvJ/Screenshot-2023-08-14-140438-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/VCqfhCK/Screenshot-2023-08-14-140449-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/NKWRmMF/Screenshot-2023-08-14-140502-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/Pj1DvGv/Screenshot-2023-08-14-140638-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/C8FLZRQ/Screenshot-2023-08-14-140646-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/TvRJz7y/Screenshot-2023-08-14-140704-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/C0Q0THL/Screenshot-2023-08-14-140720-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/2Yf9n2N/Screenshot-2023-08-14-140731-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/prLJz02/Screenshot-2023-08-14-140742-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/rbfgjqX/Screenshot-2023-08-14-140753-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/YQxtX36/Screenshot-2023-08-14-140800-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/kqqm8xJ/Screenshot-2023-08-14-140808-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                </div>
+                                                </div>
+                                                <div id="item-3">&nbsp;</div>
+                                                <div id="item-4">&nbsp;</div>
+                                            </div>
+                                            <h1 class="web-adress">www.oneworldpeacemaker.foundation</h1>
+                                            <div class="bottom-grid">
+                                                <div id="item-5">&nbsp;</div>
+                                                <div id="item-6">&nbsp;</div>
+                                                <div id="item-7">&nbsp;</div>
+                                                <div id="item-8">&nbsp;</div>
+                                                <div id="item-9">&nbsp;</div>
+                                            </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <?php if(is_numeric($product['price']) && $product['price'] == 0){ }else{ ?>
                                     <div class="article-badge">
@@ -136,7 +198,68 @@
                         <?php foreach($products as $product){ ?>
                             <article class="article article-style-b border rounded mb-3">
                                 <div class="article-header">
-                                    <div class="article-image" style="background-image: url('<?=$product['image']!=""?base_url("assets/uploads/product-image/".$product['image']):''?>');">
+                                    <div class="card-container">
+                                        <div class="card-left">
+                                            <div class="polygon-clipper">
+                                            <div class="hexagon-cilpper">
+                                                <img 
+                                                src="https://i.ibb.co/fthT2FN/Screenshot-2023-08-14-133615-removebg-preview.png" 
+                                                alt="Medal Logo"
+                                                class="medal-logo"
+                                                />
+                                            </div>
+                                            <div class="headline-text">
+                                                <h3 class="over-text">ONE GOD, ONE WORLD, ONE PEOPLE </h3>
+                                                <h1 class="middle-text">ONE WORLD PEACE MAKER FOUNDATION</h1>
+                                                <h3 class="bottom-text">FUTURE IS TODAY, RESOLVING TODAYS NEED IS, TOMORROWS FUTURE</h3>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-right">
+                                            <div class="adress-text">
+                                            <p class="text-desc">
+                                                243/36/11, Ma Lo Street, Quater 10, Binh Tri Dong A Ward, Binh Tan District.
+                                            </p>
+                                            <p class="text-desc-web">
+                                            mariena@oneworldpeacemaker.foundation
+                                            </p>
+                                            </div>
+                                                <div class="overlay">
+                                            <div class="mid-grid">
+                                                <div id="item-0">&nbsp;</div>
+                                                <div id="item-1">&nbsp;</div>
+                                                <div id="item-2">
+                                                <div class='image-container'>
+                                                    <div><img src="https://i.ibb.co/S5fjFP0/Screenshot-2023-08-14-140341-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/zSx7CXT/Screenshot-2023-08-14-140353-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/vDYSxZp/Screenshot-2023-08-14-140410-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/CpLMhvJ/Screenshot-2023-08-14-140438-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/VCqfhCK/Screenshot-2023-08-14-140449-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/NKWRmMF/Screenshot-2023-08-14-140502-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/Pj1DvGv/Screenshot-2023-08-14-140638-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/C8FLZRQ/Screenshot-2023-08-14-140646-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/TvRJz7y/Screenshot-2023-08-14-140704-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/C0Q0THL/Screenshot-2023-08-14-140720-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/2Yf9n2N/Screenshot-2023-08-14-140731-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/prLJz02/Screenshot-2023-08-14-140742-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/rbfgjqX/Screenshot-2023-08-14-140753-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/YQxtX36/Screenshot-2023-08-14-140800-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/kqqm8xJ/Screenshot-2023-08-14-140808-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                </div>
+                                                </div>
+                                                <div id="item-3">&nbsp;</div>
+                                                <div id="item-4">&nbsp;</div>
+                                            </div>
+                                            <h1 class="web-adress">www.oneworldpeacemaker.foundation</h1>
+                                            <div class="bottom-grid">
+                                                <div id="item-5">&nbsp;</div>
+                                                <div id="item-6">&nbsp;</div>
+                                                <div id="item-7">&nbsp;</div>
+                                                <div id="item-8">&nbsp;</div>
+                                                <div id="item-9">&nbsp;</div>
+                                            </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <?php if(is_numeric($product['price']) && $product['price'] == 0){ }else{ ?>
                                     <div class="article-badge">
@@ -180,7 +303,68 @@
                         <div class="col-md-12">
                             <article class="article border rounded mb-3">
                                 <div class="article-header">
-                                    <div class="article-image" style="background-image: url('<?=$product['image']!=""?base_url("assets/uploads/product-image/".$product['image']):''?>');">
+                                    <div class="card-container">
+                                        <div class="card-left">
+                                            <div class="polygon-clipper">
+                                            <div class="hexagon-cilpper">
+                                                <img 
+                                                src="https://i.ibb.co/fthT2FN/Screenshot-2023-08-14-133615-removebg-preview.png" 
+                                                alt="Medal Logo"
+                                                class="medal-logo"
+                                                />
+                                            </div>
+                                            <div class="headline-text">
+                                                <h3 class="over-text">ONE GOD, ONE WORLD, ONE PEOPLE </h3>
+                                                <h1 class="middle-text">ONE WORLD PEACE MAKER FOUNDATION</h1>
+                                                <h3 class="bottom-text">FUTURE IS TODAY, RESOLVING TODAYS NEED IS, TOMORROWS FUTURE</h3>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-right">
+                                            <div class="adress-text">
+                                            <p class="text-desc">
+                                                243/36/11, Ma Lo Street, Quater 10, Binh Tri Dong A Ward, Binh Tan District.
+                                            </p>
+                                            <p class="text-desc-web">
+                                            mariena@oneworldpeacemaker.foundation
+                                            </p>
+                                            </div>
+                                                <div class="overlay">
+                                            <div class="mid-grid">
+                                                <div id="item-0">&nbsp;</div>
+                                                <div id="item-1">&nbsp;</div>
+                                                <div id="item-2">
+                                                <div class='image-container'>
+                                                    <div><img src="https://i.ibb.co/S5fjFP0/Screenshot-2023-08-14-140341-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/zSx7CXT/Screenshot-2023-08-14-140353-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/vDYSxZp/Screenshot-2023-08-14-140410-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/CpLMhvJ/Screenshot-2023-08-14-140438-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/VCqfhCK/Screenshot-2023-08-14-140449-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/NKWRmMF/Screenshot-2023-08-14-140502-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/Pj1DvGv/Screenshot-2023-08-14-140638-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/C8FLZRQ/Screenshot-2023-08-14-140646-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/TvRJz7y/Screenshot-2023-08-14-140704-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/C0Q0THL/Screenshot-2023-08-14-140720-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/2Yf9n2N/Screenshot-2023-08-14-140731-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/prLJz02/Screenshot-2023-08-14-140742-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/rbfgjqX/Screenshot-2023-08-14-140753-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/YQxtX36/Screenshot-2023-08-14-140800-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/kqqm8xJ/Screenshot-2023-08-14-140808-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                </div>
+                                                </div>
+                                                <div id="item-3">&nbsp;</div>
+                                                <div id="item-4">&nbsp;</div>
+                                            </div>
+                                            <h1 class="web-adress">www.oneworldpeacemaker.foundation</h1>
+                                            <div class="bottom-grid">
+                                                <div id="item-5">&nbsp;</div>
+                                                <div id="item-6">&nbsp;</div>
+                                                <div id="item-7">&nbsp;</div>
+                                                <div id="item-8">&nbsp;</div>
+                                                <div id="item-9">&nbsp;</div>
+                                            </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="article-title">
                                     <h2><a href="<?=$product['url']!=""?htmlspecialchars($product['url']):'#'?>" target="_blank"><?=htmlspecialchars($product['title'])?></a></h2>
@@ -202,7 +386,68 @@
                         <?php foreach($portfolio as $product){ ?>
                             <article class="article border rounded mb-3">
                                 <div class="article-header">
-                                    <div class="article-image" style="background-image: url('<?=$product['image']!=""?base_url("assets/uploads/product-image/".$product['image']):''?>');">
+                                    <div class="card-container">
+                                        <div class="card-left">
+                                            <div class="polygon-clipper">
+                                            <div class="hexagon-cilpper">
+                                                <img 
+                                                src="https://i.ibb.co/fthT2FN/Screenshot-2023-08-14-133615-removebg-preview.png" 
+                                                alt="Medal Logo"
+                                                class="medal-logo"
+                                                />
+                                            </div>
+                                            <div class="headline-text">
+                                                <h3 class="over-text">ONE GOD, ONE WORLD, ONE PEOPLE </h3>
+                                                <h1 class="middle-text">ONE WORLD PEACE MAKER FOUNDATION</h1>
+                                                <h3 class="bottom-text">FUTURE IS TODAY, RESOLVING TODAYS NEED IS, TOMORROWS FUTURE</h3>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-right">
+                                            <div class="adress-text">
+                                            <p class="text-desc">
+                                                243/36/11, Ma Lo Street, Quater 10, Binh Tri Dong A Ward, Binh Tan District.
+                                            </p>
+                                            <p class="text-desc-web">
+                                            mariena@oneworldpeacemaker.foundation
+                                            </p>
+                                            </div>
+                                                <div class="overlay">
+                                            <div class="mid-grid">
+                                                <div id="item-0">&nbsp;</div>
+                                                <div id="item-1">&nbsp;</div>
+                                                <div id="item-2">
+                                                <div class='image-container'>
+                                                    <div><img src="https://i.ibb.co/S5fjFP0/Screenshot-2023-08-14-140341-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/zSx7CXT/Screenshot-2023-08-14-140353-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/vDYSxZp/Screenshot-2023-08-14-140410-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/CpLMhvJ/Screenshot-2023-08-14-140438-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/VCqfhCK/Screenshot-2023-08-14-140449-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/NKWRmMF/Screenshot-2023-08-14-140502-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/Pj1DvGv/Screenshot-2023-08-14-140638-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/C8FLZRQ/Screenshot-2023-08-14-140646-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/TvRJz7y/Screenshot-2023-08-14-140704-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/C0Q0THL/Screenshot-2023-08-14-140720-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/2Yf9n2N/Screenshot-2023-08-14-140731-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/prLJz02/Screenshot-2023-08-14-140742-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/rbfgjqX/Screenshot-2023-08-14-140753-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/YQxtX36/Screenshot-2023-08-14-140800-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                    <div><img src="https://i.ibb.co/kqqm8xJ/Screenshot-2023-08-14-140808-removebg-preview.png" alt="logo" class="label-logo"></div>
+                                                </div>
+                                                </div>
+                                                <div id="item-3">&nbsp;</div>
+                                                <div id="item-4">&nbsp;</div>
+                                            </div>
+                                            <h1 class="web-adress">www.oneworldpeacemaker.foundation</h1>
+                                            <div class="bottom-grid">
+                                                <div id="item-5">&nbsp;</div>
+                                                <div id="item-6">&nbsp;</div>
+                                                <div id="item-7">&nbsp;</div>
+                                                <div id="item-8">&nbsp;</div>
+                                                <div id="item-9">&nbsp;</div>
+                                            </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="article-title">
                                     <h2><a href="<?=$product['url']!=""?htmlspecialchars($product['url']):'#'?>" target="_blank"><?=htmlspecialchars($product['title'])?></a></h2>
